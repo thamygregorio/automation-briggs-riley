@@ -3,9 +3,9 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   viewportWidth: 1440,
   viewportHeight: 900,
-  requestTimeout: 120000,
-  defaultCommandTimeout: 120000,
-  pageLoadTimeout: 120000,
+  requestTimeout: 30000,
+  defaultCommandTimeout: 30000,
+  pageLoadTimeout: 30000,
   chromeWebSecurity: false,
   experimentalStudio: true,
   experimentalWebKitSupport: true,
@@ -15,6 +15,6 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
     },
-    baseUrl: "https://dev-briggs-riley.myshopify.com",
+    baseUrl: "https://www.briggs-riley.com/",
   },
 });
