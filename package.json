@@ -1,0 +1,23 @@
+{
+  "name": "automation-briggs-riley",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thamygregorio/automation-briggs-riley.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thamygregorio/automation-briggs-riley/issues"
+  },
+  "homepage": "https://github.com/thamygregorio/automation-briggs-riley#readme",
+  "devDependencies": {
+    "cypress": "^10.9.0",
+    "cypress-wait-until": "^1.7.2"
+  }
+}
