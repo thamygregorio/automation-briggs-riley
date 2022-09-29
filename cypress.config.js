@@ -6,7 +6,7 @@ module.exports = defineConfig({
   requestTimeout: 120000,
   defaultCommandTimeout: 120000,
   pageLoadTimeout: 120000,
-  chromeWebSecurity: true,
+  chromeWebSecurity: false,
   experimentalStudio: true,
   experimentalWebKitSupport: true,
   video: false,
@@ -14,7 +14,6 @@ module.exports = defineConfig({
   screenshots: false,
   e2e: {
     setupNodeEvents(on, config) {
-      // implement node event listeners here
     },
     baseUrl: "https://dev-briggs-riley.myshopify.com",
   },
